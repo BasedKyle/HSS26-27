@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/reset-css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>GAME</title>
+</head>
+<body>
+    <div class="playground" id="playground">
+        <div class="player" id="player">
+                <span class="sound-trigger" onclick="playCatSound()"><img src="style/images.jpg"></span>
+        </div>
+        <div class="coin">
+            <img src="style/coin.png" alt="coin">
+        </div>
+    </div>
+    <div class="text">
+        <p class="meow">старт!!</p>
+    </div>
+    <p class="score">Монет собрано: <span id="coin-count">0</span></p>
+
+    <div class="controls">
+        <button class="button-top" id="button-top">↑</button>
+        <button class="button-down" id="button-down">↓</button>
+        <button class="button-left" id="button-left">←</button>
+        <button class="button-right" id="button-right">→</button>
+    </div>
+
+<audio src="style/Cat_idle2_1.mp3" class="cat-sound" id="cat-sound"></audio>
+<script src="style/script.js"></script>
+</body>
+</html>
