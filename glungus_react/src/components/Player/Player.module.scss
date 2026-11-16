@@ -1,0 +1,13 @@
+.player {
+  width: 20px;
+  height: 20px;
+  background: red;
+  position: absolute;
+  transition: top 0.08s linear, left 0.08s linear;
+}
+
+.soundTrigger {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
